@@ -1,6 +1,6 @@
 package com.tyler.domain;
 
-public class Person {
+public class Student {
     private String name;
     private int age;
 
@@ -8,7 +8,7 @@ public class Person {
     public String b;
     public String c;
     public String d;
-    public Person() {
+    public Student() {
     }
 
     @Override
@@ -39,11 +39,11 @@ public class Person {
         this.age = age;
     }
 
-    public Person(String name, int age) {
+    public Student(String name, int age) {
         this.name = name;
         this.age = age;
     }
-    public void sleep(){
-        System.out.println("sleep......");
+    public void eat(){
+        System.out.println("eat......");
     }
 }
